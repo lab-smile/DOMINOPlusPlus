@@ -27,7 +27,7 @@ International Conference on Medical Image Computing and Computer Assisted Interv
 - DOMINO++ also performs better than DOMINO or the baseline model on the standard images, images with Gaussian noise, or different scanner data.
 
 <div align="center">
-	<img src = "Images/Img1_3114.pdf">
+	<img src = "Images/Img3_3114.png">
 </div>
 
 <div align="center">
