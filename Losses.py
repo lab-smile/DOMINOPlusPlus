@@ -49,7 +49,7 @@ class DOMINOPlusPlusLoss_fast(_Loss):
           penalty_term = torch.bmm(penalty.float(),outputs_soft)
           
           beta = 1. * self.ce(input, target)
-          beta = 10**(int(floor(np.log10(n))))
+          beta = 10**(int(floor(np.log10(beta))))
         
           penalty_sum = beta*(torch.mean(penalty_term).cuda())
           
